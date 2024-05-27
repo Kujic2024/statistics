@@ -3,14 +3,14 @@ const LoanDataControllerABI = [
       "constant": true,
       "inputs": [
         {
-          "name": "",
+          "name": "Loan Data Controller",
           "type": "uint256"
         }
       ],
       "name": "loanOffers",
       "outputs": [
         {
-          "name": "",
+          "name": "0x551325450cc75a0122ad6d156823d05090151d0c",
           "type": "address"
         }
       ],
@@ -22,14 +22,14 @@ const LoanDataControllerABI = [
       "constant": true,
       "inputs": [
         {
-          "name": "",
+          "name": "0",
           "type": "uint256"
         }
       ],
       "name": "loanRequests",
       "outputs": [
         {
-          "name": "",
+          "name": "0x155A69970aBb497231fc437aD05365c6962F4E4E",
           "type": "address"
         }
       ],
@@ -43,7 +43,7 @@ const LoanDataControllerABI = [
       "name": "getLoanRequests",
       "outputs": [
         {
-          "name": "",
+          "name": "0x155A69970aBb497231fc437aD05365c6962F4E4E",
           "type": "address[]"
         }
       ],
@@ -57,7 +57,7 @@ const LoanDataControllerABI = [
       "name": "getInactiveLoans",
       "outputs": [
         {
-          "name": "",
+          "name": "0x155A69970aBb497231fc437aD05365c6962F4E4E",
           "type": "address[]"
         }
       ],
@@ -76,7 +76,7 @@ const LoanDataControllerABI = [
       "name": "getCurrentState",
       "outputs": [
         {
-          "name": "",
+          "name": "0",
           "type": "uint8"
         }
       ],
@@ -162,7 +162,7 @@ const LoanDataControllerABI = [
       "name": "getMediumAmount",
       "outputs": [
         {
-          "name": "",
+          "name": "1",
           "type": "uint128"
         }
       ],
@@ -182,7 +182,7 @@ const LoanDataControllerABI = [
       "name": "getCollateralToken",
       "outputs": [
         {
-          "name": "",
+          "name": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03",
           "type": "address"
         }
       ],
@@ -201,7 +201,7 @@ const LoanDataControllerABI = [
       "name": "getCollateralType",
       "outputs": [
         {
-          "name": "",
+          "name": "0",
           "type": "uint8"
         }
       ],
@@ -258,7 +258,7 @@ const LoanDataControllerABI = [
       "name": "getInstalmentPremium",
       "outputs": [
         {
-          "name": "",
+          "name": "0",
           "type": "uint128"
         }
       ],
@@ -277,7 +277,7 @@ const LoanDataControllerABI = [
       "name": "isLastPayment",
       "outputs": [
         {
-          "name": "",
+          "name": "1",
           "type": "bool"
         }
       ],
@@ -380,7 +380,7 @@ const LoanDataControllerABI = [
       "name": "getLoanOffers",
       "outputs": [
         {
-          "name": "",
+          "name": "0xe7F5747CA519886840B5441b5Fded1928A609D3a",
           "type": "address[]"
         }
       ],
@@ -391,4 +391,4 @@ const LoanDataControllerABI = [
 
   ];
 
-  export default LoanDataControllerABI;
+export default LoanDataControllerABI;
